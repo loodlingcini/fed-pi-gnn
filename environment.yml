@@ -1,0 +1,13 @@
+name: fed-pi-gnn
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.5.1
+  - pytorch-cuda=12.4
+  - numpy=2.1.3
+  - pyyaml=6.0.2
+  - pytest=8.3.4
+

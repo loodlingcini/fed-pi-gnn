@@ -1,0 +1,34 @@
+seed: 1
+seeds: 20
+clients: 6
+rounds: 50
+local_epochs: 5
+steps_per_round: 300
+batch_size: 128
+learning_rate: 0.0005
+weight_decay: 0.0001
+warmup_rounds: 5
+scheduler: cosine
+precision: fp32
+hidden_dim: 256
+layers: 6
+dropout: 0.1
+atom_dim: 32
+formulation_dim: 8
+organs: 8
+time_points: 20
+fedprox_mu: 0.01
+lambda_pbpk: 0.3
+lambda_stokes_einstein: 0.3
+lambda_gibbs: 0.1
+lambda_epr: 0.1
+temperature_kelvin: 310.0
+viscosity_pascal_seconds: 0.0012
+plasma_ph: 7.4
+endosomal_ph: 5.5
+half_life_hours: 2.0
+gradient_clip: 1.0
+split: scaffold
+split_ratios: [0.8, 0.1, 0.1]
+bootstrap_samples: 10000
+

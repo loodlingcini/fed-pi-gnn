@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools==75.8.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fed-pi-gnn"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = ["torch==2.5.1", "numpy==2.1.3", "pyyaml==6.0.2"]
+
+[project.scripts]
+fed-pi-train = "fed_pi_gnn.cli:train_main"
+fed-pi-evaluate = "fed_pi_gnn.cli:evaluate_main"
+fed-pi-infer = "fed_pi_gnn.cli:infer_main"
+
+[tool.setuptools]
+package-dir = {"" = "code"}
+
+[tool.setuptools.packages.find]
+where = ["code"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+strict = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["code"]

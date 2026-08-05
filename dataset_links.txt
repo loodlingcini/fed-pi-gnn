@@ -1,0 +1,11 @@
+Lokugamage 2022 | https://www.nature.com/articles/s41551-021-00786-x | CC-BY-NC
+SORT 2020 | https://www.nature.com/articles/s41565-020-0669-6 | CC-BY
+AGILE source | https://github.com/bowang-lab/AGILE | MIT
+Witten 2025 | https://www.nature.com/articles/s41597-025-06456-w | CC-BY-4.0
+LNPDB | https://www.nature.com/articles/s41467-026-68818-1 | CC-BY-4.0
+LNPDB portal | https://lnpdb.molcube.com | CC-BY-4.0
+LIPID MAPS LMSD | https://www.lipidmaps.org/databases/lmsd/overview | CC-BY-NC-SA
+PubChem | https://pubchem.ncbi.nlm.nih.gov/ | public domain
+UK Biobank Showcase | https://biobank.ndph.ox.ac.uk/showcase/ | aggregated marginals only
+MIMIC-IV 3.1 | https://physionet.org/content/mimiciv/3.1/ | PhysioNet credentialed access
+Protein Data Bank | https://www.rcsb.org/ | public domain
